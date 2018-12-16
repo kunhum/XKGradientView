@@ -1,0 +1,6 @@
+framework module XKGradientView {
+  umbrella header "XKGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_XKGradientView_Example {
+  umbrella header "Pods-XKGradientView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

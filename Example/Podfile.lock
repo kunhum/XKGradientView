@@ -1,0 +1,16 @@
+PODS:
+  - XKGradientView (1.0.0)
+
+DEPENDENCIES:
+  - XKGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  XKGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKGradientView: 611283673daf69b83be5d244a5ea79e48346c44c
+
+PODFILE CHECKSUM: 19fd2ba9fdf5a2cda46ad682a1bca77cd89bc0c4
+
+COCOAPODS: 1.5.3

@@ -23,6 +23,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C3BC13FFCD0C65A02731E687 /* Pods_XKGradientView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDABBA7C933ACCABCFF5EFC /* Pods_XKGradientView_Example.framework */; };
+		E1D995C321C6994A00A9DA91 /* XKGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995B821C6994A00A9DA91 /* XKGradientButton.m */; };
+		E1D995C421C6994A00A9DA91 /* XKGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995BB21C6994A00A9DA91 /* XKGradientLabel.m */; };
+		E1D995C521C6994A00A9DA91 /* XKGradientTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995BE21C6994A00A9DA91 /* XKGradientTextView.m */; };
+		E1D995C621C6994A00A9DA91 /* CAGradientLayer+xkCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995BF21C6994A00A9DA91 /* CAGradientLayer+xkCategory.m */; };
+		E1D995C721C6994A00A9DA91 /* XKGradientTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995C021C6994A00A9DA91 /* XKGradientTextField.m */; };
+		E1D995C821C6994A00A9DA91 /* XKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D995C221C6994A00A9DA91 /* XKGradientView.m */; };
 		E30F7BC33023916CC4B58482 /* Pods_XKGradientView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE1E9D678351508D2ACA15C /* Pods_XKGradientView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B15B26399FB9C7D7F56188C /* XKGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKGradientView.podspec; path = ../XKGradientView.podspec; sourceTree = "<group>"; };
+		1B15B26399FB9C7D7F56188C /* XKGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKGradientView.podspec; path = ../XKGradientView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DE1E9D678351508D2ACA15C /* Pods_XKGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		335C6A9AFBAB1368A98B28F1 /* Pods-XKGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKGradientView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKGradientView_Example/Pods-XKGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XKGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +67,24 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C1D2B8B3CE37CF4325178DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AC1570C220F1882C9AD5B752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C1D2B8B3CE37CF4325178DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AC1570C220F1882C9AD5B752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C1DC5A07F8D748DC169329D1 /* Pods-XKGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKGradientView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKGradientView_Tests/Pods-XKGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C84BBAE2B0946E4A069299DB /* Pods-XKGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKGradientView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKGradientView_Example/Pods-XKGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFDABBA7C933ACCABCFF5EFC /* Pods_XKGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E063503F0993D567EDFA5E8F /* Pods-XKGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKGradientView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKGradientView_Tests/Pods-XKGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D995B721C6994A00A9DA91 /* XKGradientTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKGradientTextView.h; sourceTree = "<group>"; };
+		E1D995B821C6994A00A9DA91 /* XKGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKGradientButton.m; sourceTree = "<group>"; };
+		E1D995B921C6994A00A9DA91 /* CAGradientLayer+xkCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+xkCategory.h"; sourceTree = "<group>"; };
+		E1D995BA21C6994A00A9DA91 /* XKGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKGradientView.h; sourceTree = "<group>"; };
+		E1D995BB21C6994A00A9DA91 /* XKGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKGradientLabel.m; sourceTree = "<group>"; };
+		E1D995BC21C6994A00A9DA91 /* XKGradientTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKGradientTextField.h; sourceTree = "<group>"; };
+		E1D995BD21C6994A00A9DA91 /* XKGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKGradientButton.h; sourceTree = "<group>"; };
+		E1D995BE21C6994A00A9DA91 /* XKGradientTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKGradientTextView.m; sourceTree = "<group>"; };
+		E1D995BF21C6994A00A9DA91 /* CAGradientLayer+xkCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+xkCategory.m"; sourceTree = "<group>"; };
+		E1D995C021C6994A00A9DA91 /* XKGradientTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKGradientTextField.m; sourceTree = "<group>"; };
+		E1D995C121C6994A00A9DA91 /* XKGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKGradientLabel.h; sourceTree = "<group>"; };
+		E1D995C221C6994A00A9DA91 /* XKGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +150,7 @@
 		6003F593195388D20070C39A /* Example for XKGradientView */ = {
 			isa = PBXGroup;
 			children = (
+				E1D995B621C6994A00A9DA91 /* XKGradientView */,
 				6003F59C195388D20070C39A /* XKAppDelegate.h */,
 				6003F59D195388D20070C39A /* XKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -196,6 +215,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E1D995B621C6994A00A9DA91 /* XKGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D995B721C6994A00A9DA91 /* XKGradientTextView.h */,
+				E1D995B821C6994A00A9DA91 /* XKGradientButton.m */,
+				E1D995B921C6994A00A9DA91 /* CAGradientLayer+xkCategory.h */,
+				E1D995BA21C6994A00A9DA91 /* XKGradientView.h */,
+				E1D995BB21C6994A00A9DA91 /* XKGradientLabel.m */,
+				E1D995BC21C6994A00A9DA91 /* XKGradientTextField.h */,
+				E1D995BD21C6994A00A9DA91 /* XKGradientButton.h */,
+				E1D995BE21C6994A00A9DA91 /* XKGradientTextView.m */,
+				E1D995BF21C6994A00A9DA91 /* CAGradientLayer+xkCategory.m */,
+				E1D995C021C6994A00A9DA91 /* XKGradientTextField.m */,
+				E1D995C121C6994A00A9DA91 /* XKGradientLabel.h */,
+				E1D995C221C6994A00A9DA91 /* XKGradientView.m */,
+			);
+			name = XKGradientView;
+			path = ../../XKGradientView/Classes/XKGradientView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +286,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kunhum;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9AE2ZZ47TB;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -367,9 +409,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D995C521C6994A00A9DA91 /* XKGradientTextView.m in Sources */,
+				E1D995C621C6994A00A9DA91 /* CAGradientLayer+xkCategory.m in Sources */,
+				E1D995C721C6994A00A9DA91 /* XKGradientTextField.m in Sources */,
 				6003F59E195388D20070C39A /* XKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XKViewController.m in Sources */,
+				E1D995C321C6994A00A9DA91 /* XKGradientButton.m in Sources */,
+				E1D995C421C6994A00A9DA91 /* XKGradientLabel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E1D995C821C6994A00A9DA91 /* XKGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +545,7 @@
 			baseConfigurationReference = 335C6A9AFBAB1368A98B28F1 /* Pods-XKGradientView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AE2ZZ47TB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XKGradientView/XKGradientView-Prefix.pch";
 				INFOPLIST_FILE = "XKGradientView/XKGradientView-Info.plist";
@@ -512,6 +561,7 @@
 			baseConfigurationReference = C84BBAE2B0946E4A069299DB /* Pods-XKGradientView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AE2ZZ47TB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XKGradientView/XKGradientView-Prefix.pch";
 				INFOPLIST_FILE = "XKGradientView/XKGradientView-Info.plist";
